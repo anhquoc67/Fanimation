@@ -50,6 +50,7 @@ function App() {
           <Route path='/WallFan' element={<WallFan />} />
           <Route path='/ExhaustFan' element={<ExhaustFan />} />
           <Route path='/Accessories' element={<Accessories />} />
+          <Route path='*' index element={<Body />} />
         </Routes>
       </div>
       
